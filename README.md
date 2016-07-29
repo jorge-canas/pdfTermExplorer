@@ -7,6 +7,10 @@ It has two input fields, one for the terms you want to look for (comma separated
 
 You can launched via launch.sh (with execution privileges) or via command using 'python pdfTermExplorer.py'
 
+You will have two different outputs:
+ - The first output will tell you, for each document, wich are the words/phrases found, how many times and in which pages
+ - The second one will tell you, for each word/phrase how many times does the word/phrase appears and in which document
+
 Requirements Python 2.6, PDFMiner (the one used in this project is 20140328), Tkinter 81008
 
 This project use PDFMiner to parse the pdf to text.
